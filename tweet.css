@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color:#D5EEFF;
+}
+#tweet-form{
+    height: 100px;
+}
+.btn{
+    height: 50px;
+    font-size:20px;
+    background-color:#FCECEA;
+    border-style: none;
+    color:rgb(182, 179, 179);
+    border-radius: 10px;
+}
+.tweet{
+    background-color:#FFF4E0;
+    width:400px;
+    display: inline-block;
+    width: 60%;
+    height: 100px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 4px;
+    border-radius: 30px;
+
+}
+.bkb{
+    text-align: center;
+}
+h1{
+    color:rgb(182, 179, 179);
+}
