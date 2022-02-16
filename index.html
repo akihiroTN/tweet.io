@@ -17,8 +17,14 @@
     />
     <button class="btn" onclick="onc()">tweet</button>
     <div id="bkb"></div>
-    <span>1.7</span>
-    <span>11:11</span>
+    <span id="DPP"></span>
+    <span id="DYWP"></span>
     <script src="tweet.js"></script>
+    <script>
+      const date = new Date("1.7");
+      verifyDate = date.getMonth() + 1 + "." + date.getDate();
+      document.getElementById("DPP").innerHTML = verifyDate;
+      document.getElementById("DYWP").innerHTML = "15:15";
+    </script>
   </body>
 </html>
